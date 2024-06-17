@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-SIgKKNvDdcdyE8XHEPwJPp4vofL63XnUTizIL6dE6q2IMMXH7vAMfGicfpt4ODVjzJZrVbhRwKLBwRI1KqB6xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="context">
+        
+<div class="area" >
+    <div id="app">
+        <h1>To-Do List</h1>
+        <input type="text" id="new-task-input" placeholder="Add a new task...">
+        <input type="date" id="deadline-input">
+        <select id="category-input">
+            <!-- <option value="" selected disabled>Select category</option> -->
+            <option value="Personal">Personal🔒</option>
+            <option value="Work">Work👜</option>
+            <option value="Study">Study📖</option>
+        </select>
+        <button id="add-task-button">Add Task</button>
+        <ul id="task-list"></ul>
+    </div>
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+    <script src="script.js"></script>
+</body>
+</html>
